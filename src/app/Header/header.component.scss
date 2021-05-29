@@ -12,7 +12,12 @@
         color: #fff;
         height: 64px;
 }
-
+.navbar-brand {
+    font-size: 2.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #ddd;
+}
 .main_menu .navbar-brand img {
     height: 44px;
 }
