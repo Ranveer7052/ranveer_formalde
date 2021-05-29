@@ -1,0 +1,100 @@
+.pricing h2 {
+    text-align: center;
+    font-size: 3.2em;
+    margin: 5rem 0 2.5rem 0;
+    font-weight: bold;
+}
+
+.pricing h4 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.pricing .plan {
+    margin: 20px auto;
+    max-width: 440px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid #e9e9e9;
+}
+.pricing .plan ul li {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: default;
+}
+#pricing .plan.plan1 .title {
+    background: #256e9e;
+}
+.pricing .plan.plan1 .title {
+    background: #256e9e;
+}
+.pricing .plan .title {
+    font-size: 1.6em;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pricing .plan ul li.price {
+    background: #f6f6f6;
+}
+.pricing .plan ul li {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: default;
+}
+ .plan .title {
+    font-size: 1.6em;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #fff;
+}   
+.pricing .plan.plan2 .title {
+    background: #3498db;
+}
+.pricing .plan.plan2 {
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 0 22px rgb(10 10 10 / 42%);
+}
+.pricing .plan ul li.button.big {
+    font-size: 18px;
+    font-weight: bold;
+}
+.pricing .plan ul li.button {
+    background: #5cb85c;
+    padding: 0;
+    color: #fff;
+}
+.pricing .plan ul li.button.big {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pricing .plan ul li.button {
+    background: #5cb85c;
+    padding: 0;
+    color: #fff;
+}
+.pricing .plan .title {
+    font-size: 1.6em;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.pricing .plan ul li.button a:hover {
+    text-decoration: none;
+    background: #4cae4c;
+}
+.pricing .plan ul li.button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+}
