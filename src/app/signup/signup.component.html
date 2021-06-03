@@ -1,108 +1,107 @@
 <section class="login_section">
     <div class="container">
+        <div class="col-md-9 mx-auto d-block common_mr_tp">
+            <div class="common_view_step">
+                <div class="breadcrumb">
+                <a routerLink="/"><i class="far fa fa-home fa_home mr-2"></i></a> Portal Home <div class="select_breadcumb"> Register </div> Create an account with us...
+                </div>   
+               </div>
+               <div class="pricing_list">   
         <div id="signup_form">
-        <div class="signup_head text-center">
-        <h1 class="col-xs-12 text-center">
-            Try IntakeQ <span>FREE</span> for 14 days
-        </h1>
-
-        <h2 class="col-xs-12 text-center">
-            And improve your intake experience.
-        </h2>
-        </div>
-        <div class="row">          
-
-
-            <div class="col-sm-6">
-
+        
+        <div class="row">  
+            <div class="col-sm-8">
+                <div class="signup_head ">
+                    <h1 class="col-xs-12 ">
+                        Try FormaldE FREE for 14 days
+                    </h1>
+                    <h2 class="col-xs-12 ">
+                        And improve your intake experience.
+                    </h2>
+                    </div>
                 <div class="text-left">
-                    <form action="#" id="register-form" method="post" role="form">
-                       
+                    <form >                       
                         <div class="form-group ">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <label for="FirstName">First Name</label>
                                     <input class="form-control" data-val="true" data-val-required="First Name Required"
-                                        id="FirstName" maxlength="50" name="FirstName" placeholder="First Name"
+                                        id="FirstName" maxlength="50" formControlName="firstName" placeholder="First Name"
                                         required="required" type="text" value="">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="LastName">Last Name</label>
                                     <input class="form-control" data-val="true" data-val-required="Last Name Required"
-                                        id="LastName" maxlength="50" name="LastName" placeholder="Last Name"
+                                        id="LastName" maxlength="50" formControlName="lastName" placeholder="Last Name"
                                         required="required" type="text" value="">
                                 </div>
+
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="Email">Email</label>
                             <input class="form-control email" data-val="true"
                                 data-val-email="The Email field is not a valid e-mail address."
-                                data-val-required="Email Required" id="Email" maxlength="60" name="Email"
+                                data-val-required="Email Required" id="Email" maxlength="60" formControlName="email"
                                 placeholder="Email" required="required" type="email" value="">
                         </div>
                         <div class="form-group">
                             <label for="Password">Password</label>
                             <input class="form-control password" data-val="true" data-val-required="Password Required"
-                                id="Password" maxlength="50" name="Password" placeholder="Password" required="required"
+                                id="Password" maxlength="50" formControlName="password" placeholder="Password" required="required"
                                 type="password">
                         </div>
-                        <div class="form-group agree text-left">
-
+                        <!-- <div class="form-group agree text-left">
                             <label>
                                 <input data-val="true" data-val-required="The Agree field is required." id="Agree"
                                     name="Agree" type="checkbox" value="true"><input name="Agree" type="hidden"
-                                    value="false"> &nbsp; I agree to IntakeQ's <a href="#">Terms of Service</a> and
+                                    value="false"> &nbsp; I agree to FormaldE <a href="#">Terms of Service</a> and
                                 <a href="#">Privacy Policy</a>.
+                               
                             </label>
-                        </div>
+                        </div> -->
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"><input name="Agree" type="hidden"
+                                value="false"> &nbsp; I agree to FormaldE <a href="#">Terms of Service</a> and
+                            <a href="#">Privacy Policy</a></label>
+                          </div>
                         <div class="form-group">
-                          <button type="submit" class="g-recaptcha btn btn-lg btn-success btn-block"
-                                data-sitekey="6LfuL0IUAAAAAMZzpnqATf_2a2cs_tVnHn22Rcn7" data-callback="onSubmit">
-                                START MY FREE TRIAL
+                          <button type="submit" class="g-recaptcha btn btn-lg btn-success btn-block">
+                            Start My Free Trail
                             </button>
                         </div>
-                        <div style="width: 100%; clear: both;">
-
-                        </div>
+                    
                     </form>
                 </div>
 
 
             </div>
 
-            <div class="col-sm-6">
-
-
+            <div class="col-sm-4 signup_list_rt pr-0">
                 <ul class="list-unstyled list">
                     <li>
-                        <i class="glyphicon glyphicon-ok">
-                        </i>
+                        <i class="fa fa-check check_now"></i>
                         Cancel Anytime
                     </li>
                     <li>
-                        <i class="glyphicon glyphicon-ok">
-                        </i>
+                       <i class="fa fa-check check_now"></i>
                         Send Forms Privately
                     </li>
                     <li>
-                        <i class="glyphicon glyphicon-ok">
-                        </i>
+                       <i class="fa fa-check check_now"></i>
                         Integrate with Your Website
                     </li>
                     <li>
-                        <i class="glyphicon glyphicon-ok">
-                        </i>
+                       <i class="fa fa-check check_now"></i>
                         Convert Existing Forms
                     </li>
                     <li>
-                        <i class="glyphicon glyphicon-ok">
-                        </i>
+                       <i class="fa fa-check check_now"></i>
                         Online Booking &amp; Payment
                     </li>
                     <li>
-                        <i class="glyphicon glyphicon-ok">
-                        </i>
+                       <i class="fa fa-check check_now"></i>
                         Secure (HIPAA compliant)
                     </li>
                 </ul>
@@ -111,4 +110,6 @@
         </div>
         </div>
     </div>
+    </div>
+</div>
 </section>

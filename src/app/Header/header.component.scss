@@ -2,13 +2,13 @@
     height: calc(64px - 1px);
     color: #fff;
     font-size: 16px;
-    padding-top: 20px;
-    text-transform: uppercase;
+    padding-top: 18px;
+    text-transform: capitalize;
     border-top: transparent 4px solid;
 }
     .main_menu {
         border: 0;
-        background-color: #3498db;
+        background-color: #292C3E;
         color: #fff;
         height: 64px;
 }
@@ -17,6 +17,7 @@
     line-height: inherit;
     white-space: nowrap;
     color: #ddd;
+    font-weight: bold;
 }
 .main_menu .navbar-brand img {
     height: 44px;

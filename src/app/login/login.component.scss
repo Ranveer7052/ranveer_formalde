@@ -1,26 +1,100 @@
 .signin-form {
-    padding: 20px;
-    background-color: #3498db;
     color: #fff;
 }
 
-.login_form {
-    background: #fff;
-    box-shadow: 0 0 4px #ddd;
-    padding: 6rem 2.5rem 7rem 2.5rem;
-    margin-bottom: 2.5rem;
-}
  .signin-articles h2 {
     margin-top: 0;
     padding-top: 0;
-    color: #999;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
 }
 
-.forgot{text-align: center;}
+.forgot{text-align: center;display: inline-block;background: #228AE6;border-radius: 8px;width: 235px;height: 52px;line-height: 52px;
+    margin-left: 30px;}
 .forgot a{color: #ddd;text-align: center;}
 .signin-articles ul li a {
-    color: #428bca;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
 }
+.signin-articles ul li p{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    color: #727272;
+}
+.breadcumb{padding-left: 0px;}
+.fa_home{font-size: 17px;}
+.select_breadcumb {
+    width: 156px;
+    height: 44px;
+    position: relative;
+    background: #292C3E;
+    margin-top: -11px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+  }
+  .select_breadcumb:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #3b3d50 ;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .fb_icon{font-size: 22px;vertical-align: middle;}
+  .select_breadcumb:before {
+    content: "";
+    position: absolute;
+    right: -22px;
+    bottom: 0;
+    width: 24px;
+    height: 0;
+    border-left: 13px solid #292C3E;
+    border-top: 25px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+.signin-form label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;}
+.btn_login{
+    background: linear-gradient(90deg, #954FB8 0%, #7549AD 94.41%);
+    color: #fff;
+    width: 133px;
+    height: 52px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;}
+  .sign_desing, a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;   
+    color: #FFFFFF;
+    text-align: center;}  
+
+.facebook_log{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #3C5A9A;
+    border-radius: 6px; 
+    width: 259px;
+    height: 52px;
+    line-height: 52px;
+    margin-bottom: 25px;
+}   

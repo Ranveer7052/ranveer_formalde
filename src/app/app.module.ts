@@ -11,11 +11,17 @@ import { HomeComponent } from './home/home.component';
 import {Routes, RouterModule} from '@angular/router';
 import { PricingComponent } from './pricing/pricing.component';
 
+import {HttpClientModule} from '@angular/common/http'
+import { SignupService } from './signup.service';
+import { FooterComponent } from './footer/footer.component';
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+
 const appRoutes:Routes = [
   {path: '', component: HomeComponent},
   {path: 'login', component: LoginComponent},
   {path: 'signup', component: SignupComponent},
   {path: 'pricing', component: PricingComponent},
+  {path: 'forgotpassword', component: ForgotpasswordComponent},
 ]
 
 @NgModule({
@@ -25,15 +31,18 @@ const appRoutes:Routes = [
     LoginComponent,
     SignupComponent,
     HomeComponent,
-    PricingComponent
+    PricingComponent,
+    FooterComponent,
+    ForgotpasswordComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    RouterModule.forRoot(appRoutes)
+    NgbModule,    
+    RouterModule.forRoot(appRoutes),
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [SignupService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

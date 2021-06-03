@@ -1,80 +1,98 @@
 <section class="login_section">
     <div class="container login_form">
+        <div class="col-md-9 mx-auto d-block common_mr_tp">
+            <div class="common_view_step">
+                <div class="breadcrumb">
+                    <a routerLink="/"><i class="far fa fa-home fa_home mr-2"></i></a> Portal Home<div class="select_breadcumb"> Sign In </div>
+                </div>   
+               </div>
+               <div class="pricing_list">
         <div class="row">
-
-            <div class="col-md-6">
+            <div class="col-md-7 ">
                 <div class="signin-form">
-                    <h2>Welcome Back</h2>
+                    <h1>Welcome Back</h1>
+                    <h2>Please sign in first to access all features</h2>
                     <form action="/" method="post">
                         <input name="" type="hidden" value="">
                         <div class="form-group inner-addon left-addon addon-lg text-left">
-                            <label for="Email">Email:</label>
+                            <label for="Email">Email Address</label>
                             <div class="inner-addon left-addon addon-lg text-left">
-                                <i class="fa fa-envelope"></i>
+                               
                                 <input class="form-control input-lg" data-val="true" data-val-required="Email Required"
-                                    id="Email" name="Email" placeholder="Email Address" required="required" type="email"
+                                    id="Email" name="Email" placeholder="example@mail.com" required="required" type="email"
                                     value="">
                             </div>
                         </div>
+                                               
                         <div class="form-group text-left">
-                            <label for="Password">Password:</label>
-                            <div class="inner-addon left-addon addon-lg text-left">
-                                <i class="fa fa-lock"></i>
+                            <label for="Password">Password</label>
+                            <div class="input-group">
+                               
                                 <input class="form-control input-lg" data-val="true"
                                     data-val-required="Password Required" id="Password" name="Password"
-                                    placeholder="Password" required="required" type="password">
+                                    placeholder="Your Password" required="required" type="password">
                             </div>                   
                         </div>
-                        <div class="form-group text-left">
-                            <label style="font-weight: normal">
-                                <input data-val="true" data-val-required="The ExtendCookie field is required."
-                                    id="ExtendCookie" name="ExtendCookie" type="checkbox" value="true"><input
-                                    name="ExtendCookie" type="hidden" value="false"> Keep me logged in for 1 week <span
-                                    style="color: #ddd;">(I trust this computer)</span>
-                            </label>
-                        </div>
+                       
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1"><input name="Agree" type="hidden"
+                                value="false"> &nbsp;  Keep me logged in for 1 week  <span
+                                style="color:#ddd;">(I trust this computer)</span></label>
+                          </div>
                         <input data-val="true" data-val-number="The field UtcOffset must be a number."
                             data-val-required="The UtcOffset field is required." id="utcoffset" name="UtcOffset"
                             type="hidden" value="-330"><input id="ReturnUrl" name="ReturnUrl" type="hidden" value="">
                         <div class="form-group">
-                            <button type="submit" class="btn btn-lg btn-success btn-block">Sign in</button>
-                        </div>
-                        <div>
+                            <button type="submit" class="btn btn_login btn-block">Sign in</button>
+                        
                             <div class="forgot">
-                                <a href="#">Forgot Password?</a>
+                                <a routerLink="/forgotpassword">Forgot Password?</a>
                             </div>
+                        </div>
+                        <div class="sign_desing">
+                            Don't have an account?
+                            <a routerLink="/signup">
+                                Try FormaldE for free
+                            </a>
                         </div>
                     </form>
                  </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5 signup_list_rt">
                 <div class="signin-articles">
+                    <div class="facebook_log"><i class="fa fa-facebook-square ml-3 mr-3 fb_icon"></i>Sign in with Facebook</div>
                     <h2>
                         Things You May Find Useful
                     </h2>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#" class="article-title">Sending scheduled forms</a>
+                            <a href="#" class="article-title">Can i make forms use less paper when printing
+                                them?</a>
                             <p>
-                                Did you know that you can schedule forms to be sent based around appointment dates?
-                                <a class="read-more" href="#">Read more →</a>
+                                Did you know that you can schedule forms to be sent based around appointment dates?Yes,there are a couple of options that  will make
+                                the your forms use less paper.
+                                <a class="read-more" href="#">Read more </a>
 
                             </p>
                         </li>
                         <li>
-                            <a href="#" class="article-title">Receive SMS Notifications for Booked Appointments</a>
+                            <a href="#" class="article-title">Multi-language forms</a>
                             <p>
-                                Get a text message every time a client books an appointment using your booking widget.
-                                <a class="read-more" href="#">Read more →</a>
+                                If you  have forms in Spanish or French,you can
+                                change their language setting and show all
+                                labels,buttons and system messages in that
+                                language.
+                                <a class="read-more" href="#">Read more </a>
 
                             </p>
                         </li>
                         <li>
-                            <a href="#" class="article-title">Improving the performance of your forms</a>
+                            <a href="#" class="article-title">How to add page breaks to your forms</a>
                             <p>
-                                If you have a long questionnaire and some of your clients are complaining that your form
-                                is slow, read this article!
-                                <a class="read-more" href="#">Read more →</a>
+                                Adding page breaks to your froms helps you
+                                customize how they look when exporting to PDF.
+                                <a class="read-more" href="#">Read more </a>
 
                             </p>
                         </li>
@@ -82,5 +100,7 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
     </div>
 </section>

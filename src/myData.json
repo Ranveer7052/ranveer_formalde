@@ -1,15 +1,27 @@
-// const myData = {
-// "logInPage": {
-//     "title": "Welcome Back",
-//     "thingsuseful": {
-//             "title": "Things You May Find Useful",
-//             "list":[
-//                 			"Product Tracker and in-stock alerts",
-//                 			"Auto checkout (up to 10 concurrent tasks)",
-//                 			"Unlimited billing/shipping addresses"
-//                 		],
+{
+"logInPage": {
+    "title": "Welcome Back",
+    "thingsuseful": {
+            "title": "Things You May Find Useful",
+            "list":[
+                	{
+                        "listtitle": "Charging a credit card manually",
+                        "listdec": "IntakeQ allows you to manually charge for an appointment by entering the client’s credit card information.",
+                        "readmore": "Read more"
+                    },
+                    {
+                        "listtitle": "Superbills",
+                        "listdec": "IntakeQ allows you to easily create and send superbills to your clients.",
+                        "readmore": "Read more"
+                    },
+                    {
+                        "listtitle": "Improving the performance of your forms",
+                        "listdec": "If you have a long questionnaire and some of your clients are complaining that your form is slow, read this article!",
+                        "readmore": "Read more"
+                    }		
+                	]
         
-//                     },
+                    }
 
-// }
-// }
+}
+}

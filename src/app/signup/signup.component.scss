@@ -1,29 +1,32 @@
-
-#signup_form {
-    background: #fff;
-    box-shadow: 0 0 4px #ddd;
-    padding: 20px 40px 60px 40px;
-    margin-bottom: 40px;
+.pricing_list {
+    background-color: #292C3E;
+    border-radius: 12px;
+    padding: 40px;
+    
+    max-width: 798px;
 }
+.common_mr_tp{margin: 6.6rem 0px;}
 #signup_form h1 {
-    margin-top: 60px;
-    font-size: 48px;
-    text-align: center;
+    margin-top: 0px;
+    font-size:24px;
+    text-align: left;
+    line-height: 36px;
+    color: #fff;
 }
-
+// .signup_list_rt{border-left: 1px solid #fff;}
 #signup_form h1 span {
     font-weight: bold;
     color: #ffa500;
 }
 #signup_form h2{
-    margin: 10px 0 60px 0;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: lighter;
+    line-height: 21px;
+    color: #fff;
 }
 
-#signup_form  {
-    
-    margin: 10px 0 60px 0;
+#signup_form  {    
+    margin: 20px 0 20px 0;
     font-size: 24px;
     font-weight: lighter;
 }
@@ -32,20 +35,83 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
 }
-#signup_form label{font-size: 16px;}
+
+.breadcrumb{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: transparent;
+    padding-left: 0px;
+}
+.select_breadcumb{
+    background: #292C3E;
+    border-radius: 4px;
+}
+.select_breadcumb {
+    width: 156px;
+    height: 44px;
+    position: relative;
+    background: #292C3E;
+    margin-top: -11px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+  }
+  .fa_home{font-size: 17px;}
+  .select_breadcumb:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #3b3d50 ;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  .select_breadcumb:before {
+    content: "";
+    position: absolute;
+    right: -22px;
+    bottom: 0;
+    width: 24px;
+    height: 0;
+    border-left: 13px solid #292C3E;
+    border-top: 25px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+   .check_now{margin-right: 10px;} 
+#signup_form label, a{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #fff;}
 #signup_form form input {
-    height: 40px;
+    height: 45px;
     font-size: 16px;
+    background: #484D69;
+    border-color: #484D69;
+    border-radius: 10px;
+    color: #fff;
 }
 #signup_form ul.list li {
-    margin-bottom: 20px;
-    font-size: 20px;;
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
-
+#signup_form .form-check-input {
+    height: 19px;
+}
 #signup_form form button {
-    padding: 20px;
-    font-size: 22px;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 21px;
     color: #fff;
-    background-color: #47a447;
-    border-color: #398439;
+    border-color: #954FB8;
+    background: linear-gradient(90deg, #954FB8 0%, #7549AD 94.41%);
+    border-radius: 8px;
 }
