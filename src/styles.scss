@@ -60,14 +60,34 @@ h1 {
 .signin-form form .form-check-input{height: 19px;}
 #signup_form .form-check-input{height: 19px;}
 
+.forgot{text-align: center;display: inline-block;background: #228AE6;border-radius: 8px;width: 235px;height: 52px;line-height: 52px;
+    margin-left: 30px;}
+.forgot a{color: #ddd;text-align: center;}
+.facebook_log{width: 259px;}
 
 
-
-
-
-
-
-
+@media only screen and (max-width: 1199px){
+    .forgot{width: 175px;margin-left: 10px;}
+}
+@media only screen and (max-width: 991px){
+    .signup_list_rt {
+        border-top: 1px solid #818181;
+        padding-top: 15px;
+    }
+    .signup_list_rt {
+        border-left: 0px solid #818181;
+    }
+}
+@media only screen and (max-width: 576px){
+    .pricing_list{width: 100%;padding: 20px;max-width: 100%;}
+    
+}
+@media only screen and (max-width: 480px){
+    .common_mr_tp{margin: 2.6rem 0rem;}
+    .btn_login {margin: 0px auto;display: block;}
+    .forgot{margin: 10px auto;display: block;width: 100%;}
+    .facebook_log{width: 100%;}
+}
 @media only screen and (max-width:370px){
-    .select_breadcumb{margin-top: 5px;}
+    .select_breadcumb{margin-top: 5px !important;}
 }

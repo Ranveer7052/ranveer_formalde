@@ -9,6 +9,7 @@ body{
     margin: 1rem 0 0.5rem 0;
     font-weight: 500;
     color:#fff;
+    line-height: 30px;
 }
 
 .pricing h4 {
@@ -26,13 +27,6 @@ body{
     background: #484D69;
     border-radius: 10px;
 }
-// .pricing .plan ul li {
-//     margin: 0;
-//     padding: 10px;
-//     width: 100%;
-//     font-size: 16px;
-//     cursor: default;
-// }
 #pricing .plan.plan1 .title {
     background: #256e9e;
 }
@@ -49,14 +43,7 @@ body{
 
 .pricing .plan ul li.price {
     background: #f6f6f6;
-}
-
-//  .plan .title {
-//     font-size: 1.6em;
-//     padding: 15px 20px;
-//     font-weight: bold;
-//     color: #fff;
-// }   
+}  
 ul .regular-pricing .title {
     font-size: 1.6em;
     padding: 15px 20px;
@@ -106,7 +93,7 @@ ul .regular-pricing .title {
     padding: 20px;
     color: #fff;
 }
-.pricing_list{background-color: #292C3E;border-radius: 12px;padding: 40px;margin: 6.6rem 0px;max-width: 798px;}
+.pricing_list{background-color: #292C3E;border-radius: 12px;margin: 6.6rem 0px;max-width: 798px;}
 .regular-pricing .price{color: #222;font-weight: 600;font-size: 14px;line-height: 21px;padding: 10px 20px;}
 .regular-pricing .price small{color: #222;font-weight: 600;font-size: 14px;}
 .regular-pricing li:nth-child(3){margin-top: 10px;}
